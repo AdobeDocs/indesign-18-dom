@@ -11,7 +11,7 @@
  */
 
 module.exports = {
-  pathPrefix: process.env.PATH_PREFIX || '/indesign/v18/dom/',
+  pathPrefix: process.env.PATH_PREFIX || '/indesign/dom/',
   siteMetadata: {
     versions: [
       {
