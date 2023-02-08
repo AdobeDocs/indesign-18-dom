@@ -13,98 +13,56 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/indesign/dom/',
   siteMetadata: {
-    versions: [
-      {
-        title: 'v2.0',
-        selected: true
-      },
-      {
-        title: 'v1.4',
-        path: 'https://github.com/AdobeDocs/dev-site'
-      }
-    ],
     pages: [
       {
-        title: 'Cat Analytics',
+        title: 'InDesign DOM',
         path: '/'
       },
       {
         title: 'Guides',
-        path: '/guides/'
+        path: '/indesign/uxp/guides/'
       },
       {
-        title: 'API Reference',
+        title: 'Plugins',
+        path: '/indesign/uxp/plugins/'
+      },
+      {
+        title: 'InDesign Server',
+        path: '/indesign/uxp/server/'
+      },
+      {
+        title: 'References',
         menu: [
           {
-            title: 'Cat Reference v2.0',
-            description: 'Cat Reporting API',
-            path: '/api/index.md'
+            title: 'UXP API',
+            path: '/indesign/uxp/uxp_ref/',
           },
           {
-            title: 'Cat Reference v1.4',
-            description: 'Cat API Spec',
-            path: '/api/1.4.md'
+            title: 'InDesign API',
+            path: '/',
+          },
+          {
+            title: 'Recipes',
+            path: '/indesign/uxp/reference/recipes/'
           }
         ]
       },
       {
+        title: 'Code Samples',
+        path: '/indesign/uxp/reference/uxp-scripting-samples/'
+      },
+      {
         title: 'Support',
-        path: '/support/'
+        path: '/indesign/uxp/support/'
       }
     ],
     subPages: [
       {
-        title: 'Get Started',
-        path: '/guides/',
-        pages: [
-          {
-            title: 'Dummy an OAuth Client',
-            path: '/guides/dummy_oauth_client/'
-          },
-          {
-            title: 'Dummy OAuth using POSTMAN',
-            path: '/guides/dummy_using_postman/'
-          }
-        ]
-      },
-      {
-        title: 'Cat Metrics API',
-        path: '/guides/dummy_metrics_api/'
-      },
-      {
-        title: 'Migrating',
-        path: '/guides/migrating/'
-      },
-      {
-        title: 'Overview',
-        path: '/support/',
+        title: "DOM reference",
+        path: "/_ROOT_/",
         header: true,
-        pages: [
-          {
-            title: 'Help',
-            path: '/support/'
-          },
-          {
-            title: 'FAQ',
-            path: '/support/FAQ/'
-          },
-          {
-            title: 'How to contribute',
-            path: '/support/contribute/'
-          }
-        ]
+        pages: require("./reference-dom.js")
       },
-      {
-        title: 'Community',
-        path: '/support/community/',
-        header: true,
-        pages: [
-          {
-            title: 'Information',
-            path: '/support/community/'
-          }
-        ]
-      }
     ]
   },
   plugins: [`@adobe/gatsby-theme-aio`]
