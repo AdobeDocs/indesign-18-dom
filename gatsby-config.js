@@ -39,7 +39,7 @@ module.exports = {
           },
           {
             title: 'InDesign API',
-            path: '/',
+            path: '/omv/',
           },
           {
             title: 'Recipes',
@@ -59,7 +59,7 @@ module.exports = {
     subPages: [
       {
         title: "DOM reference",
-        path: "/_ROOT_/",
+        path: "/",
         header: true,
         pages: require("./reference-dom.js")
       },
