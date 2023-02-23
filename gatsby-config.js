@@ -15,10 +15,6 @@ module.exports = {
   siteMetadata: {
     pages: [
       {
-        title: 'InDesign DOM',
-        path: '/'
-      },
-      {
         title: 'Guides',
         path: '/indesign/uxp/guides/'
       },
@@ -39,7 +35,7 @@ module.exports = {
           },
           {
             title: 'InDesign API',
-            path: '/',
+            path: '/api/',
           },
           {
             title: 'Recipes',
@@ -58,8 +54,8 @@ module.exports = {
     ],
     subPages: [
       {
-        title: "DOM reference",
-        path: "/_ROOT_/",
+        title: "Indesign DOM reference",
+        path: "/api/",
         header: true,
         pages: require("./reference-dom.js")
       },
