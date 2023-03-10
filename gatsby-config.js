@@ -15,6 +15,10 @@ module.exports = {
   siteMetadata: {
     pages: [
       {
+        title: 'UXP for InDesign',
+        path: '/indesign/uxp/'
+      },
+      {
         title: 'Guides',
         path: '/indesign/uxp/guides/'
       },
