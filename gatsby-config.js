@@ -43,13 +43,13 @@ module.exports = {
           },
           {
             title: 'Recipes',
-            path: '/indesign/uxp/reference/recipes/'
+            path: '/indesign/uxp/recipes/'
           }
         ]
       },
       {
         title: 'Code Samples',
-        path: '/indesign/uxp/reference/uxp-scripting-samples/'
+        path: '/indesign/uxp/uxp-scripting-samples/'
       },
       {
         title: 'Support',
