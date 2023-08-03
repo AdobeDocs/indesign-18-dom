@@ -1,11 +1,11 @@
 {
   "private": true,
   "name": "dev-site-documentation-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdobeDocs/dev-site-documentation-template"
+    "url": "https://github.com/AdobeDocs/indesign-18-dom"
   },
   "author": {
     "name": "Stephan Ringel",

@@ -19,20 +19,28 @@ module.exports = {
         path: '/indesign/uxp/'
       },
       {
-        title: 'Guides',
-        path: '/indesign/uxp/guides/'
+        title: 'Introduction',
+        path: '/indesign/uxp/introduction/'
+      },
+      {
+        title: 'Scripts',
+        path: '/indesign/uxp/scripts/'
       },
       {
         title: 'Plugins',
         path: '/indesign/uxp/plugins/'
       },
       {
-        title: 'InDesign Server',
-        path: '/indesign/uxp/server/'
+        title: 'Resources',
+        path: '/indesign/uxp/resources/'
       },
       {
         title: 'References',
         menu: [
+          {
+            title: 'What\'s New',
+            path: '/indesign/uxp/changelog/'
+          },
           {
             title: 'UXP API',
             path: '/indesign/uxp/reference/uxp-api/',
@@ -40,20 +48,8 @@ module.exports = {
           {
             title: 'InDesign API',
             path: '/api/',
-          },
-          {
-            title: 'Recipes',
-            path: '/indesign/uxp/recipes/'
           }
         ]
-      },
-      {
-        title: 'Code Samples',
-        path: '/indesign/uxp/uxp-scripting-samples/'
-      },
-      {
-        title: 'Support',
-        path: '/indesign/uxp/support/'
       }
     ],
     subPages: [
