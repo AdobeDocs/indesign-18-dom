@@ -271,7 +271,7 @@ A page.
 #### Parameters
 | Type | Name | Description |
 |---|---|---|
-| Object | adoptTo | Change values - see functin definition for details |
+| Object | adoptTo | Change values - see function definition for details |
 | Page | affectedPages | The collection of Page objects to affect (optional). Has no effect if function is called from Page (Optional) |
 
 *** 
