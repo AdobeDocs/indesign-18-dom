@@ -25,4 +25,9 @@ The language of the script to execute.
 > Number **JAVASCRIPT** = 1246973031
 > 
 > The JavaScript language.
-
+*** 
+> *Read Only* 
+> 
+> Number **APPLESCRIPT_LANGUAGE** = 1095978087
+> 
+> The AppleScript language.
