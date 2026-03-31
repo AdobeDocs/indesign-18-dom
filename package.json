@@ -13,9 +13,16 @@
   },
   "dependencies": {
     "@adobe/gatsby-theme-aio": "^4.14.4",
+    "axios": "0.30.0",
     "gatsby": "4.22.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
+  },
+  "overrides": {
+    "axios": "0.30.0"
+  },
+  "resolutions": {
+    "axios": "0.30.0"
   },
   "scripts": {
     "start": "gatsby build && gatsby serve",
